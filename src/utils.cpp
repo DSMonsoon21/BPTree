@@ -15,6 +15,7 @@ string gen_random_file_name(){
 }
 
 //function clears the temp folder
+//Function needs to be changed if on WINDOWS
 void clear_temp_folder(){
     string a = "rm -r " + TEMP_PATH;
     system(a.c_str());
